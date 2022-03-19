@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("https://a.d-cd.net/sOAAAgI87-A-1920.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 736px;
+      max-height: 736px;
+      background: url("https://i.pinimg.com/736x/a8/58/73/a85873d5897a1adfd41b4e2b99ef90b3.jpg");
+  }
+  .square{
+      width: 16px;
+      height: 16px;
+      margin: 1px;
+      box-shadow: 0 0 2px #000;
+      transition:  4s ease ;
+  }
+  .square:hover{
+      transition-duration: 0s;
+  }
